@@ -59,7 +59,7 @@ if uploaded_files:
         
         # Show dataframe preview
         st.write("🔍 Preview the Head of the Dataframe")
-        st.dataframe(df.head())
+        st.dataframe(df,height=200)
 
         # Data cleaning options
         st.subheader("📀 Data Cleaning Options")
